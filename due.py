@@ -8,6 +8,6 @@ return_amount = calculate_return(total_bill, amount_paid)
 
 if amount_paid > total_bill:
     print("The shopkeeper should return:", return_amount, "Rs")
-elif amount_paid < total_bill:
+else amount_paid < total_bill:
     print("You should return to shopkeeper:", abs(return_amount), "Rs")
 
